@@ -682,8 +682,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "resticprofile \u003e Configuration file",
-    "content": "This feature is available for:\nmacOS Windows Linux with systemd (logind) There’s a global parameter called prevent-sleep that you can set to true, and resticprofile will prevent your system from idle sleeping.\nPlease note:\nit will not prevent a sleep if the system is running on batteries it will not prevent a sleep triggered by a user action: using the sleep button, closing the laptop lid, etc.",
-    "description": "This feature is available for:\nmacOS Windows Linux with systemd (logind) There’s a global parameter called prevent-sleep that you can set to true, and resticprofile will prevent your system from idle sleeping.\nPlease note:\nit will not prevent a sleep if the system is running on batteries it will not prevent a sleep triggered by a user action: using the sleep button, closing the laptop lid, etc.",
+    "content": "This feature is available for:\nmacOS Windows Linux with systemd (logind) There’s a global parameter called prevent-sleep that you can set to true, and resticprofile will prevent your system from idle sleeping while running commands.\nPlease note:\nit will not prevent a sleep if the system is running on batteries it will not prevent a sleep triggered by a user action: using the sleep button, closing the laptop lid, etc.",
+    "description": "This feature is available for:\nmacOS Windows Linux with systemd (logind) There’s a global parameter called prevent-sleep that you can set to true, and resticprofile will prevent your system from idle sleeping while running commands.\nPlease note:\nit will not prevent a sleep if the system is running on batteries it will not prevent a sleep triggered by a user action: using the sleep button, closing the laptop lid, etc.",
     "tags": [],
     "title": "Preventing system sleep",
     "uri": "/configuration/sleep/index.html"
